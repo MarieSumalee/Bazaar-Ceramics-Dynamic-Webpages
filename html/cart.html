@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Your Shopping Cart</title>
+	<meta charset="utf-8" />
+	<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+	</script>
+	<link rel="stylesheet" href="../css/cart.css" media="screen" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script type="text/javascript" src="../script/store.js"></script>
+</head>
+<div id="google_translate_element"></div>
+<script>
+	function googleTranslateElementInit() {
+		new google.translate.TranslateElement({
+			pageLanguage: 'en'
+		}, 'google_translate_element');
+	}
+
+</script>
+
+<h1 class="text-danger">Copper Red Bowl</h1>
+
+
+
+<!--Sliced image section, containing multiple images formed together -->
+<main class="content">
+	<table class="card">
+		<tr>
+			<td><img src="../s_images/bcpot002_r1_c1.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r1_c2.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r1_c3.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r1_c4.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r1_c5.jpg" alt="red bowl" width="95" height="80" /></td>
+		</tr>
+		<tr>
+			<td><img src="../s_images/bcpot002_r2_c1.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r2_c2.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r2_c3.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r2_c4.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r2_c5.jpg" alt="red bowl" width="95" height="80" /></td>
+		</tr>
+		<tr>
+			<td><img src="../s_images/bcpot002_r3_c1.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r3_c2.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r3_c3.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r3_c4.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r3_c5.jpg" alt="red bowl" width="95" height="80" /></td>
+		<tr>
+			<td><img src="../s_images/bcpot002_r4_c1.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r4_c2.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r4_c3.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r4_c4.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r4_c5.jpg" alt="red bowl" width="95" height="80" /></td>
+		</tr>
+	</table>
+</main>
+<p class=" text-center" id="itemDescription"><strong>Item: </strong> Copper red bowl, price at $450 per
+	unit.<br /><br /></p>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+<body>
+	<div id="site">
+		<header id="masthead">
+			<h2 class="text-warning">Your Shopping Cart</h2>
+		</header>
+		<div id="content">
+			<form id="shopping-cart" action="cart.html" method="post">
+				<table class="shopping-cart">
+					<thead>
+						<tr>
+							<th scope="col">Item</th>
+							<th scope="col">Qty</th>
+							<th scope="col" colspan="2">Price</th>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+				&nbsp;
+				<p id="sub-total">
+					<strong>Sub Total</strong>: <span id="stotal"></span>
+				</p>
+				<br>
+				<div class=" text-center" id="shopping-cart-actions">
+					<p>
+						<input type="submit" name="update" id="update-cart" class="btn-warning" value="Update Cart" />
+					</p>
+					<p>
+						<input type="submit" name="delete" id="clear-cart" class="btn-warning" value="Clear Cart" />
+					</p>
+					&nbsp;
+					<p>
+						<a href="members_price.html" class="btn-danger">Continue Shopping</a>
+					</p>
+					<p>
+						<a href="checkout.html" class="btn-danger">Checkout Securely</a>
+					</p>
+				</div>
+			</form>
+		</div>
+
+
+
+	</div>
+
+
+	<br>
+	<br>
+	<!-- Footer section, containing the close page link-->
+	<div id="footer" class="footer" style="text-align: center;">
+		<input type="button" id="closeButton" name="closeButton" value="Close this page"
+			onClick="closeTab(); return false;" />
+	</div>
+	<script>
+		//Function to close current tab
+		function closeTab() {
+			if (confirm("Close this tab?")) {
+				close();
+			}
+		}
+
+	</script>
+	<div class="container ">
+		<p class="text-center text-muted">
+			Copyright &copy;
+			<!-- This script automatically adds the current year to your website footer-->
+			<!-- (credit: https://updateyourfooter.com/)-->
+			<script>
+				document.write(new Date().getFullYear());
+
+			</script>
+			- Bazaar Ceramics
+		</p>
+
+	</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Members Order - Copper Red Bowl</title>
+	<meta name="keywords"
+		content="bazaar, ceramics, report, questionnaire, ceramic, art, studio, gallery, pottery, China Clay, Earthenware, Ceramic Wares, Enamel, Firing, Kneading">
+	<meta name="author" content="Responsive Website" property="Marie Sumalee">
+	<meta charset="utf-8" />
+	<meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+	<meta http-equip="X-UA-compatible" content="ie=edge">
+	<link rel="stylesheet" href="../css/members_order.css" media="screen" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../script/formScripts.js"></script>
+
+</head>
+<br>
+<br>
+
+<br>
+<div id="header" class="header">
+	<h1 class="text-danger">Copper Red Bowl</h1>
+</div>
+
+<!--Sliced image section, containing multiple images formed together -->
+<main class="content">
+	<table class="card">
+		<tr>
+			<td><img src="../s_images/bcpot002_r1_c1.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r1_c2.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r1_c3.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r1_c4.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r1_c5.jpg" alt="red bowl" width="95" height="80" /></td>
+		</tr>
+		<tr>
+			<td><img src="../s_images/bcpot002_r2_c1.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r2_c2.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r2_c3.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r2_c4.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r2_c5.jpg" alt="red bowl" width="95" height="80" /></td>
+		</tr>
+		<tr>
+			<td><img src="../s_images/bcpot002_r3_c1.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r3_c2.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r3_c3.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r3_c4.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r3_c5.jpg" alt="red bowl" width="95" height="80" /></td>
+		<tr>
+			<td><img src="../s_images/bcpot002_r4_c1.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r4_c2.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r4_c3.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r4_c4.jpg" alt="red bowl" width="95" height="80" /></td>
+			<td><img src="../s_images/bcpot002_r4_c5.jpg" alt="red bowl" width="95" height="80" /></td>
+		</tr>
+
+	</table>
+</main>
+<br />
+<!--  Order form content-->
+<div class="formContent text-center list-style=" none">
+	<h2>Order Item</h2>
+	<br />
+	<div class="formDetailsContent text-center">
+		<form id="form" action="#" method="get" onsubmit="submitForm(); return false;">
+			<page class="wrapper">
+
+				<!--  Item Description-->
+				<p>
+					<label for="itemDescription"><strong>Item:</strong></label>
+					<input type="text" name="itemDescription" id="iDesc"
+						value="Copper red bowl, used for decorative purposes" size="45" readonly /><br /><br />
+					</input>
+				</p>
+				<!--  Quantity-->
+				<p><label for="quantity"><strong>Input desired quantity:</strong></label>
+					<input type="number" id="quantity" name="quantity" value="1" required /><br /><br />
+				</p>
+				<!--  Price-->
+				<p><label for="price"><strong>Price per Item: $</strong></label>
+					<input type="number" id="price" name="price" readonly value="450" /><br /><br />
+				</p>
+				<!--  Total Price-->
+				<p><label for="totalPrice"><strong>Total order cost: $</strong></label>
+					<input id="totalPrice" name="totalPrice" /><br /><br />
+				</p>
+				<!--  Clear Button-->
+				<p>
+				<div class="buttonDiv">
+					<button class="btn-warning" id="clrBtn" onclick="clearValues(); return false">Clear</button>
+					<button class="btn-warning" id="calcTotal" onclick="sum(); return false">Calculate Total</button>
+					<button class="btn-warning" type="submit" value="submit" id="submitButton"
+						name="submitButton">Submit</button>
+				</div> <!-- End of button div -->
+				</p>
+			</page>
+		</form>
+	</div>
+
+
+	<br>
+	<!-- Footer section, containing the close page link-->
+
+	<footer class="footer">
+		<p>
+			Copyright &copy;
+			<!-- This script automatically adds the current year to your website footer-->
+			<!-- (credit: https://updateyourfooter.com/)-->
+			<script>
+				document.write(new Date().getFullYear());
+
+			</script>
+			- Bazaar Ceramics
+		</p>
+		<input type="button" id="closeButton" name="closeButton" value="Close this page"
+			onClick="closeTab(); return false;" />
+</div>
+<script>
+	//Function to close current tab
+	function closeTab() {
+		if (confirm("Close this tab?")) {
+			close();
+		}
+	}
+
+</script>
+</footer>
+
+</html>

@@ -1,0 +1,119 @@
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,700,300);
+
+body { color: #555; height: 100%;
+	font-family: "Inconsolata", sans-serif; font-size: 14px; font-weight: 300; margin: 0; padding: 0; 
+
+    background-color: #fff;
+    background-repeat: no-repeat}
+
+form.div {  
+	font-family: "Inconsolata", sans-serif; font-size: 14px; font-weight: 300; margin: 0; padding: 0; text-align: center;
+
+}
+
+
+
+/* Text */
+
+h1 { margin: 0 0 1em 0; font-size: 2em; font-weight: 700; color: rgb(66, 62, 62); text-align: center;}
+h2 { margin: 0 0 .5em 0; font-size: 1.6em; font-weight: 700; line-height: 1.1em; text-align: center;}
+h3 { margin: 0 0 .5em 0; font-size: 1.1em; font-weight: 700; color: rgb(19, 61, 122); text-align: center;}
+h4 { margin: 0 0 .5em 0; font-weight: 700; color:rgb(64, 86, 119); text-align: center;}
+
+
+p { margin: 0 0 1em 0; text-align: center;}
+
+/* Slice images formed together */
+
+body {
+  background: 0 -100px;
+  margin: 0px;
+
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+ padding: 0;
+}
+
+.content {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin: 0.0rem;
+        top: 0%;
+        bottom: 0%;
+        width: 100%;
+        height:auto;
+        padding: 20;
+    }
+
+img {
+    padding: 0.9;
+}
+  
+
+/* Calculate */
+
+form-div {
+    border: none;
+    border-radius: 10px;
+    background-color: #673AB7;
+    color: #fff;
+    padding: 8px 15px;
+    margin: 20px 0px;
+    cursor: pointer
+}
+
+button-blue:hover {
+    background-color: #311B92;
+    color: #fff
+}
+
+
+
+
+/*-----product images------*/
+.featured-categories
+{
+	margin: 50px 0;
+	
+}
+
+.featured-categories img
+{
+	width: 100%;
+	padding: 20px 0;
+	transition: 1s;
+	cursor: pointer;
+	height: 240px;
+}
+
+.featured-categories img:hover
+{
+	transform: scale(1.1)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
